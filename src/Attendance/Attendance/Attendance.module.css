@@ -1,0 +1,65 @@
+.errorMessage {
+  color: red;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.tableContainer {
+  max-height: 600px;
+  overflow-y: scroll;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.th, .td {
+  padding: 8px;
+}
+
+.th {
+  background-color: white;
+}
+
+.th, .td {
+  white-space: nowrap; /* Prevent text wrapping */
+}
+
+.stickyTop {
+  position: sticky;
+  top: 0;
+}
+
+/* Media queries for different devices */
+@media only screen and (max-width: 600px) {
+  /* For mobile devices */
+  .table,
+  .tableContainer {
+    font-size: 14px; /* Adjust font size for mobile */
+  }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 900px) {
+  /* For tablets */
+  .table,
+  .tableContainer {
+    font-size: 16px; /* Adjust font size for tablets */
+  }
+}
+
+@media only screen and (min-width: 901px) and (max-width: 1200px) {
+  /* For phablets */
+  .table,
+  .tableContainer {
+    font-size: 18px; /* Adjust font size for phablets */
+  }
+}
+
+@media only screen and (min-width: 1201px) {
+  /* For PCs */
+  .table,
+  .tableContainer {
+    font-size: 19px; /* Adjust font size for PCs */
+  }
+}

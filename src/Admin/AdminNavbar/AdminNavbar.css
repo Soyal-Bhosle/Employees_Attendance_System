@@ -1,0 +1,28 @@
+.admin-company-text {
+  color: white;
+}
+
+.admin-navbar {
+  color: #fff;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.admin-logout {
+  margin-right: 30px;
+  font-size: 30px;
+  color: white;
+}
+
+.adminwelcome-text {
+  font-size: 25px;
+}
+
+.admin-logo-img {
+  margin-left: 25px;
+  margin-right: 5px; 
+  vertical-align: middle;
+  border-radius: 100%;
+}

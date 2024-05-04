@@ -1,0 +1,125 @@
+.record-heading-custom {
+  margin-top: 23px;
+}
+
+.search-select-custom {
+  margin-top: 30px;
+}
+
+input[type="text"],
+select,
+button,
+input[type="date"] {
+  margin: 5px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  box-shadow: black 0px 1px 7px -1px;
+}
+
+thead {
+  background-color: #202429;
+  color: white;
+}
+
+td,
+th {
+  border: 1px solid #dddddd;
+  padding: 14px; /* Equal padding for all sides */
+  text-align: center;
+}
+
+tr:nth-child(even) {
+  background-color: #ffffff;
+}
+
+.filter-container {
+  margin-bottom: 10px;
+}
+
+.scroll {
+  max-width: 1100px;
+  margin-top: 23px;
+  overflow-x: auto;
+}
+
+.btn1 {
+  margin-left: 10px;
+  width: 50px;
+}
+
+/* Align text in Status row cells to center */
+tbody tr:last-child td {
+  text-align: center;
+}
+
+/* Align text in Login Time and Logout Time cells to center */
+tbody td:first-child,
+tbody td:nth-child(2) {
+  text-align: center;
+}
+
+.date-picker-custom {
+  margin-top: 30px;
+}
+
+.error {
+  color: red;
+}
+
+/* Media Queries */
+@media only screen and (max-width: 423px) {
+  /* Adjust font size for mobile */
+  .record-heading-custom {
+    font-size: 14px;
+    margin-top: 10px; /* Adjust margin for smaller screens */
+  }
+
+  .search-select-custom select,
+  .date-select input[type="date"],
+  .btn1 {
+    font-size: 14px;
+    margin-top: 10px; /* Adjust margin for smaller screens */
+  }
+
+  table {
+    font-size: 14px;
+  }
+
+  th,
+  td {
+    padding: 10px;
+  }
+}
+
+@media only screen and (min-width: 424px) and (max-width: 768px) {
+  /* Adjust font size and table size for tablet */
+  .record-heading-custom {
+    font-size: 20px;
+  }
+
+  .scroll {
+    max-width: 700px;
+  }
+
+  table {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1080px) {
+  /* Adjust font size and table size for larger tablets */
+  .record-heading-custom {
+    font-size: 22px;
+  }
+
+  .scroll {
+    max-width: 900px;
+  }
+
+  table {
+    font-size: 16px;
+  }
+}

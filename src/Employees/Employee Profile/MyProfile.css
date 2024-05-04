@@ -1,0 +1,36 @@
+.profile-container {
+  margin-left: 45%;
+  margin-top: 10%;
+  background-color: white;
+  color: black;
+  padding: 10px; /* Add padding for spacing */
+  width: 500px; /* Limit the maximum width */
+  box-shadow: black 0px 1px 7px -1px;
+  border-radius: 20px;
+}
+
+.profile-heading {
+  text-align: center;
+  font-size: 40px; /* Increase the font size for heading */
+  color: black;
+}
+
+.profile-info {
+  margin-left: 30px; /* Adjust margin for spacing */
+}
+
+.profile-info p {
+  padding: 1px 0; /* Adjust padding for spacing */
+  font-size: 23px; /* Increase the font size */
+}
+
+.profile-info button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  color: black;
+}
+
+.profile-info button:hover {
+  text-decoration: underline;
+}

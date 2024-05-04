@@ -1,0 +1,29 @@
+/* EmployeeLogin.css */
+.employee-login-container {
+    background-image: url('emplog.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .employee-login-box {
+    background-color: rgba(255, 255, 255, 0.9);
+    width: 350px;
+    max-width: 100%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+  }
+  
+  .icon {
+    margin-right: 10px;
+  }
+  
+  .register-link {
+    cursor: pointer;
+    color: blue;
+  }
+  

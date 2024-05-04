@@ -1,0 +1,131 @@
+{
+  "employees": [
+    {
+      "id": "1",
+      "name": "Junaid Shaikh",
+      "username": "Junaid123",
+      "email": "junaid23@gmail.com",
+      "contact": "9661102123",
+      "gender": "Male",
+      "role": "Admin",
+      "password": "Junaid123",
+      "confirmPassword": "Junaid123",
+      "doj": "2024-04-23"
+    },
+    {
+      "id": "2",
+      "name": "Soyal Bhosle",
+      "username": "Soyalb797",
+      "email": "soyal@gmail.com",
+      "contact": "9784753797",
+      "gender": "Male",
+      "role": "Counsellor",
+      "password": "Soyalb797",
+      "confirmPassword": "Soyalb797",
+      "doj": "2024-04-13"
+    },
+    {
+      "id": "3",
+      "name": "Vijay Kumar",
+      "username": "Vijay211",
+      "email": "vijay@gmail.com",
+      "contact": "9741856211",
+      "gender": "Male",
+      "role": "Teacher",
+      "password": "Vijay211",
+      "confirmPassword": "Vijay211",
+      "doj": "2024-04-11"
+    },
+    {
+      "id": "4",
+      "name": "Pooja Hegde",
+      "username": "Pooja123",
+      "email": "pooja@gmail.com",
+      "contact": "7849653211",
+      "gender": "Female",
+      "role": "Teacher",
+      "password": "Pooja123",
+      "confirmPassword": "Pooja123",
+      "doj": "2024-04-23"
+    }
+  ],
+  "attendance": [
+    {
+      "id": "1",
+      "employeeId": "1",
+      "username": "Junaid123",
+      "date": "2024-04-29",
+      "loginTime": "11:02:35",
+      "logoutTime": "11:05:18",
+      "startLocation": "18.55553,73.914337",
+      "endLocation": "18.55553,73.914337",
+      "totalHours": "00:02:43",
+      "status": "P"
+    },
+    {
+      "id": "2",
+      "employeeId": "1",
+      "username": "Junaid123",
+      "date": "2024-05-03",
+      "loginTime": "14:13:21",
+      "logoutTime": "14:16:53",
+      "startLocation": "18.555474,73.91431",
+      "endLocation": "18.555477,73.914307",
+      "totalHours": "00:03:32",
+      "status": "P"
+    }
+  ],
+  "holiday": [
+    {
+      "id": "ab8e",
+      "holidayName": "New Year 2024",
+      "date": "2024-01-01",
+      "holidayType": "NH"
+    },
+    {
+      "id": "faaf",
+      "holidayName": "Eid",
+      "date": "2024-04-10",
+      "holidayType": "NH"
+    }
+  ],
+  "leaves": [
+    {
+      "name": "Junaid Shaikh",
+      "username": "Junaid123",
+      "role": "Admin",
+      "from": "2024-05-04",
+      "to": "2024-05-09",
+      "status": "Approved",
+      "leaveType": "vacation",
+      "id": "6659"
+    },
+    {
+      "id": "6cfa",
+      "from": "2024-05-10",
+      "to": "2024-05-13",
+      "leaveType": "maternity",
+      "status": "Pending",
+      "name": "Soyal Bhosle",
+      "username": "Soyalb797",
+      "role": "Counsellor"
+    }
+  ],
+  "manageleaves": [
+    {
+      "id": "7777",
+      "description": "Sick",
+      "totalLeaves": "10 days"
+    },
+    {
+      "id": "79e7",
+      "description": "Vacations",
+      "totalLeaves": "15 days"
+    },
+    {
+      "id": "35fd",
+      "description": "Maternity",
+      "totalLeaves": "3 months"
+    }
+  ]
+}

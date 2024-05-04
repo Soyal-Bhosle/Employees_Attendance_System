@@ -1,0 +1,34 @@
+.modal-container {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  z-index: 10;
+  left: 58%;
+  top: 43%;
+  transform: translate(-50%, -50%);
+  width: 70%; 
+  height: auto;
+  font-size: 23px;
+}
+
+.close {
+  position: absolute;
+  right: 10px;
+  cursor: pointer;
+  color: white;
+}
+
+.details {
+  margin-left: 35%;
+  margin-top: 5%;
+  color: white;
+}
+
+.view-heading {
+  background-color: black;
+  color: white;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  text-align: center;
+}

@@ -1,0 +1,21 @@
+.App {
+  text-align: center;
+}
+
+@media (min-width: 480px) {
+  .App {
+    font-size: 48%;
+  }
+}
+
+@media (max-width: 720px) {
+  .App {
+    font-size: 72%;
+  }
+}
+
+@media (min-width: 1080px) {
+  .App {
+    font-size: 100%;
+  }
+}

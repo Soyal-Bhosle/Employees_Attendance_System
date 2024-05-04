@@ -1,0 +1,46 @@
+.holiday {
+    width: 100%;
+    border-collapse: collapse;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.hoilday-title {
+    text-align: center;
+}
+.main-block {
+    margin-left: 50px;
+    margin-top: 30px;
+}
+
+.holiday .holiday-tbody {
+    max-height: 200px;
+    /* Adjust the height as needed */
+    overflow-y: auto;
+}
+
+.holiday th,
+.holiday td {
+    padding: 8px;
+    text-align: center;
+}
+
+/* Remove alternating background colors */
+.holiday tbody tr {
+    background-color: white;
+    /* Set background color to white */
+}
+
+/* Sticky header */
+.holiday th,
+.sticky-top {
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    background-color: #202429;
+    color: white;
+}
+
+/* Button style */
+.holiday .btn {
+    margin-right: 5px;
+}

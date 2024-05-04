@@ -1,0 +1,59 @@
+/* EmployeeAttendance.module.css */
+
+.unique-attendance-container {
+  margin: 20px;
+}
+
+.unique-search-container {
+  margin-bottom: 10px;
+}
+
+.unique-table-container {
+  max-height: 500px; /* Set the max height as needed */
+  overflow-y: auto; /* Enable vertical scrolling */
+  box-shadow: black 0px 1px 7px -1px;
+}
+
+.uniqueTable {
+  border-collapse: collapse;
+  width: 120%;
+  box-shadow: black 0px 1px 7px -1px; 
+}
+
+.unique-table-heading {
+  position: sticky; /* Make the table heading sticky */
+  top: 0; /* Stick it to the top of the container */
+  background-color: #202429;
+  color: white;
+  border: none;
+  text-align: left;
+  padding: 8px;
+  z-index: 1; /* Ensure it appears above other elements */
+}
+
+.unique-start-location-btn {
+  background-color: green;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+.unique-end-location-btn {
+  background-color: #dd3544;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+.unique-search-input {
+  margin-bottom: 10px;
+  padding: 8px;
+}
+
+label {
+  margin-right: 10px;
+}

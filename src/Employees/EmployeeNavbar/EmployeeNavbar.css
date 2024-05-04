@@ -1,0 +1,30 @@
+.emp-company-text {
+  color: white;
+}
+.emp-navbar {
+  color: #fff;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+  
+.emp-logout {
+  margin-right: 30px;
+  font-size: 30px;
+  color: white;
+}
+
+.welcome-text {
+  font-size: 1.6rem;
+}
+
+.emp-logo-img {
+  margin-left: 25px;
+  margin-right: 5px; 
+  vertical-align: middle;
+  border-radius: 100%;
+}
+
+
+  

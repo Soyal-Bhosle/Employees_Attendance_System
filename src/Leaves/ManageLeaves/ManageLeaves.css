@@ -1,0 +1,41 @@
+.main-block {
+    margin-left: 50px;
+    margin-top: 30px;
+}
+.manageleaves-heading {
+    text-align: center;
+}
+.admin {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.admin-tbody {
+    max-height: 150px;
+    overflow-y: auto;
+    background-color: white;
+}
+
+.admin th,
+.admin td {
+    padding: 8px;
+    text-align: center;
+}
+
+.admin th,
+.sticky-top {
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    background-color: #202429;
+    color: white;
+}
+
+.admin .btn {
+    margin-right: 20px;
+}
+
+.text-start {
+    margin-top:20px;
+    margin-bottom:20px;
+}
