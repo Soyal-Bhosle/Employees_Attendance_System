@@ -27,4 +27,4 @@ This repository contains the source code for an Employee Attendance System built
 10. **Employees Leaves**: View detailed information about all employees leaves. 
 
 ## Collaboration
-This project module Employee Registration, Employee Login, Employee Dashboard, Employee Navbar, Employee Sidebar, Admin Login, Admin Dashboard, Admin Navbar, Admin Sidebar  were developed by me (Junaid Shaikh) (https://github.com/Junaid661). However, the Attendance and Employee Attendance, Leaves, Holidays modules were contributed by Soyal Bhosle (https://github.com/Soyal-Bhosle).
+This project module Employee Registration, Employee Login, Employee Dashboard, Employee Navbar, Employee Sidebar, Admin Login, Admin Dashboard, Admin Navbar, Admin Sidebar  were developed by me (Junaid Shaikh) (https://github.com/Junaid661). However, the Attendance and Employee Attendance, Attendance Records modules were contributed by Soyal Bhosle (https://github.com/Soyal-Bhosle).
